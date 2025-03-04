@@ -40,7 +40,9 @@ android {
 }
 
 dependencies {
-
+    implementation(project(":app"))
+    implementation(project(":feature"))
+    implementation(project(":foundation"))
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
