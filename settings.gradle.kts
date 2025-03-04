@@ -25,3 +25,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "Gradle"
 include(":app")
+include(":feature")
+include(":foundation")
+include(":arman")
